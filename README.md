@@ -2,15 +2,7 @@
 
 这是适用于 STM32F407 的项目模板，同时该模板使用 STM32CubeMX 生成外设的初始化代码
 
-项目信息：
-
-- 编译器：arm-none-eabi-gcc
-- 烧录器：JLink
-- 代码生成工具：[STM32CubeMX v6.15.0](https://www.st.com.cn/zh/development-tools/stm32cubemx.html)
-
-以上工具需要预先安装，请自行下载
-
-当前适配目标：已由用户确认的 2.0 英寸 ST7789、240×320、8 针 SPI 屏，使用竖屏配置。照片可辨认 GND、VDD、SCL、SDA、RST、DC、CS、BL，引脚按下面的信号名连接。
+当前适配目标：2.0 英寸 ST7789、240×320、8 针 SPI 屏，使用竖屏配置。照片可辨认 GND、VDD、SCL、SDA、RST、DC、CS、BL，引脚按下面的信号名连接。
 
 例程功能：接入项目内的 LVGL 8.3.11，显示运行时间、自动循环的 0～100% 进度条和每秒闪烁一次的界面状态灯。示例界面使用英文和内置 Montserrat 字体，无需触摸屏或按键。
 
